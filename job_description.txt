@@ -1,0 +1,15 @@
+We are seeking a skilled and motivated Data Analyst to join our team.
+
+Responsibilities:
+- Collect, clean, and interpret data from various sources
+- Develop dashboards and reports using tools like Power BI and Tableau
+- Perform statistical analysis and data modeling
+- Collaborate with cross-functional teams to deliver insights
+- Present findings to stakeholders in a clear and concise manner
+
+Requirements:
+- Bachelor’s degree in Data Science, Computer Science, Statistics, or related field
+- Proficiency in Python and SQL
+- Experience with data visualization tools (e.g., Power BI, Tableau)
+- Knowledge of machine learning and statistical analysis
+- Strong communication and problem-solving skills
