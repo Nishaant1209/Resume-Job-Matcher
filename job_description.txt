@@ -1,26 +1,15 @@
-We are seeking a skilled and motivated Data Analyst to join our team.
+We are hiring a Data Scientist to join our analytics team.
 
 Responsibilities:
-- Collect, clean, and interpret data from various sources
-- Develop dashboards and reports using tools like Power BI and Tableau
-- Perform statistical analysis and data modeling
-- Collaborate with cross-functional teams to deliver insights
-- Present findings to stakeholders in a clear and concise manner
+- Must have proficiency in Python and SQL
+- Experience with tools such as Power BI, Tableau, and Jupyter Notebook
+- Required knowledge of machine learning and statistical analysis
+- Strong communication and collaboration skills
+- Should be comfortable working in cross-functional teams
+- Build and deploy predictive models using TensorFlow and Scikit-learn
+- Familiarity with data modeling, preprocessing, and pipeline design
 
 Requirements:
-- Bachelor’s degree in Data Science, Computer Science, Statistics, or related field
-- Proficiency in Python and SQL
-- Experience with data visualization tools (e.g., Power BI, Tableau)
-- Knowledge of machine learning and statistical analysis
-- Strong communication and problem-solving skills
-
-
-Conducting research on intelligent vehicular systems, focusing on trust and reliability in AI-driven networks.
-– Leveraging machine learning and data analysis to contribute meaningful insights to the research project.
-TasteCode: A Food Recommendation Mobile Application Dec 2024
-Collaborating with a team to develop an innovative mobile application for personalized food and recipe recommenda-
-tions. Utilizing Android Studio and Firebase for app development and data storage, ensuring a seamless user experience.
-Designing and implementing key features, including user authentication, recipe search, filter functionalities, and grocery
-cost estimation. Developing machine learning algorithms for personalized recipe suggestions based on user preferences
-and dietary restrictions. Creating interactive and user-friendly UI/UX designs using Figma, focusing on accessibility
-and engagement.
+- Bachelor’s degree in Computer Science or related field
+- 2+ years of industry experience in data science
+- Ability to explain insights clearly to non-technical stakeholders
