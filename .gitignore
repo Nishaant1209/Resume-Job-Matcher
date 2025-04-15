@@ -1,14 +1,11 @@
-# Ignore virtual environment
+# Ignore virtual environment and unnecessary files
 env/
-
-# Ignore Python cache files
 __pycache__/
 *.pyc
-
-# Ignore data or log files
-*.pdf
-*.log
-
-# Ignore system files
+*.pkl
+*.h5
+*.tflite
+*.dylib
 .DS_Store
-env/
+*.pdf
+resume_match_report.pdf

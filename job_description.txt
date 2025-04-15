@@ -1,15 +1,24 @@
-We are hiring a Data Scientist to join our analytics team.
+We are looking for a results-driven **Machine Learning Engineer** to join our AI team and build scalable solutions for real-world data challenges.
 
-Responsibilities:
-- Must have proficiency in Python and SQL
-- Experience with tools such as Power BI, Tableau, and Jupyter Notebook
-- Required knowledge of machine learning and statistical analysis
-- Strong communication and collaboration skills
-- Should be comfortable working in cross-functional teams
-- Build and deploy predictive models using TensorFlow and Scikit-learn
-- Familiarity with data modeling, preprocessing, and pipeline design
+🔧 Responsibilities:
+- Design, implement, and optimize **machine learning models** for structured and unstructured data
+- Work with **Natural Language Processing (NLP)** frameworks to extract key insights from text
+- Build **classification, regression, and recommendation systems** using Python and deep learning libraries
+- Deploy and monitor models in production using **Docker**, **Kubernetes**, and **CI/CD pipelines**
+- Write efficient and clean code following **OOP** and **modular design principles**
+- Collaborate with data engineers to process data using **ETL pipelines**, **SQL**, and **Apache Spark**
+- Develop dashboards and model explainability tools using **Streamlit**, **Plotly**, or **Dash**
 
-Requirements:
-- Bachelor’s degree in Computer Science or related field
-- 2+ years of industry experience in data science
-- Ability to explain insights clearly to non-technical stakeholders
+🧠 Requirements:
+- Bachelor’s or Master’s in Computer Science, Artificial Intelligence, or Data Science
+- 2+ years of experience in machine learning or data science roles
+- Proficiency in Python, TensorFlow, PyTorch, Scikit-learn
+- Experience with NLP toolkits like spaCy, HuggingFace Transformers, BERT, or GPT-based models
+- Strong experience in feature engineering, model validation, and hyperparameter tuning
+- Familiarity with MLflow, Weights & Biases, or other model tracking tools
+- Knowledge of **cloud platforms** (AWS/GCP/Azure), especially S3, SageMaker, or Vertex AI
+
+✨ Nice to Have:
+- Experience with **Time Series Forecasting** or **Anomaly Detection**
+- Exposure to **Reinforcement Learning** or **Graph Neural Networks**
+- Contributions to open-source ML projects or published research

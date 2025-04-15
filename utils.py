@@ -108,41 +108,27 @@ def extract_entities(text):
 
     return entities
 
-def find_similar_sentences(jd_text, resume_text, model, threshold=0.5):
-    jd_sentences = sent_tokenize(jd_text)
+def find_similar_sentences(jd_text_or_list, resume_text, model, threshold=0.5, pre_tokenized=False):
+    if pre_tokenized:
+        jd_sentences = jd_text_or_list
+    else:
+        jd_sentences = sent_tokenize(jd_text_or_list)
+
     resume_sentences = sent_tokenize(resume_text)
 
-    jd_sentences_cleaned = [clean_sentence(s) for s in jd_sentences]
-    resume_sentences_cleaned = [clean_sentence(s) for s in resume_sentences]
+    jd_sentences_cleaned = [s.strip().lower() for s in jd_sentences if s.strip()]
+    resume_sentences_cleaned = [s.strip().lower() for s in resume_sentences if s.strip()]
 
     jd_embeddings = model.encode(jd_sentences_cleaned)
     resume_embeddings = model.encode(resume_sentences_cleaned)
 
     similar_pairs = []
-
-    # 🚀 Priority keywords (you can add more)
-    priority_keywords = ['proficiency', 'must have', 'required', 'skills', 'tools', 'experience with', 'responsibilities']
-    boost_factor = 1.25
-
     for i, jd_emb in enumerate(jd_embeddings):
         for j, res_emb in enumerate(resume_embeddings):
-            sim_score = float(util.cos_sim(jd_emb, res_emb))
-
-            # Apply weight if JD sentence is high-priority
-            if any(keyword in jd_sentences[i].lower() for keyword in priority_keywords):
-                sim_score *= boost_factor
-
+            sim_score = util.cos_sim(jd_emb, res_emb)
             if sim_score >= threshold:
-                similar_pairs.append((jd_sentences[i], resume_sentences[j], round(sim_score, 2)))
+                similar_pairs.append((jd_sentences[i], resume_sentences[j], round(float(sim_score), 2)))
 
-    # Remove duplicates
-    unique_pairs = []
-    seen = set()
-    for jd_sent, res_sent, score in similar_pairs:
-        key = (jd_sent[:40], res_sent[:40])
-        if key not in seen:
-            seen.add(key)
-            unique_pairs.append((jd_sent, res_sent, score))
+    return similar_pairs
 
-    return unique_pairs
 
