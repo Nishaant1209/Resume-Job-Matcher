@@ -3,8 +3,11 @@
 env/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
+.DS_Store
+*.m4a
+*.mp4
+*.conf
+
 
 # Ignore Jupyter and other logs
 .ipynb_checkpoints/
