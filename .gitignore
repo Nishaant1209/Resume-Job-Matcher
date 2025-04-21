@@ -1,12 +1,23 @@
 # Ignore virtual environment and unnecessary files
+# Ignore Python environment and compiled files
 env/
 __pycache__/
 *.pyc
-*.pkl
-*.h5
-*.tflite
-*.dylib
+*.pyo
+*.pyd
+
+# Ignore Jupyter and other logs
+.ipynb_checkpoints/
+*.log
+
+# Ignore system files
 .DS_Store
+
+# Ignore large dataset and model files
+*.dylib
+*.tflite
+*.h5
+*.pt
+*.pkl
+*.csv
 *.pdf
-resume_match_report.pdf
-env/
